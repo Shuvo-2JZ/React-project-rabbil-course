@@ -1,0 +1,127 @@
+.topBackground{
+    background-image: url("../image/background.svg");
+    background-color: #F6F8FA;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    width: 100%;
+    
+    /* height: 1200px; */
+    /* object-fit: cover; */
+
+     position: absolute; 
+    
+    /* background-attachment: fixed; */
+}
+
+.container-background{
+  position: relative;
+  padding: 12rem;
+}
+
+/* .containerBackground{
+    background-color: white;
+    box-shadow: 2px;
+    position: absolute;
+} */
+
+.vertical-line{
+  border-left: 0.5px solid #D3D3D3;
+  height: 100px;
+  margin-left: 50px;
+}
+
+.customButton{
+  background-color: #CD2F2F; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 20rem;
+}
+
+.fontStyle{
+  font-family: "Raleway", sans-serif;
+  color: #293C5B ;
+  font-weight: 700;
+  font-size: 18px;
+  /* overflow-wrap: break-word; */
+  /* margin-left: 2em;
+  text-indent: -1.5em; */
+
+  /* padding-left: 1.5em;
+  text-indent:-1.5em; */
+}
+
+.font-alignment{
+  padding-left: 1.5em;
+  text-indent:-1.5em;
+}
+
+.font-checkbox{
+  font-family: "Montserreat", sans-serif;
+  color: #293C5B ;
+  font-weight: 530;
+  font-size: 18px;
+}
+
+.top-header-font{
+  font-family: "Montserreat", sans-serif;
+  color: #293C5B ;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.top-header-description{
+  font-family: "Raleway", sans-serif;
+  color: #293C5B ;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.user-info-font{
+  font-family: "Raleway", sans-serif;
+  color: #293C5B ;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+
+.deposit-digit{
+  font-family: "Montserreat", sans-serif;
+  color: #293C5B ;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.deposit-amount{
+  font-family: "Raleway", sans-serif;
+  color: #293C5B ;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.thankyou-font{
+  font-family: "Montserreat", sans-serif;
+  color: #293C5B ;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.paragraph-margin{
+  margin: 0;
+}
+
+.hr-half-width{
+  width:55%;
+  margin: 0 auto;
+  border: none;
+  height: 1px;
+  /* Set the hr color */
+  /* color: #333; old IE */
+  background-color: #333; /* Modern Browsers */
+}
